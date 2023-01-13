@@ -4,3 +4,32 @@ tr {
   h3{
     color: rgb(255, 255, 255)
   }
+ body{
+
+margin: 0px;
+  background-image: url("http://images.complex.com/complex/images/fl_lossy,q_auto/v1/rx5x1kwfmxrkufcnaoyr/new-ball-spalding-2006-syntethic-nba");
+
+ }
+ header{
+display: flex;
+justify-content: space-between;
+background-color: white;
+align-items: center;
+
+}
+
+.logo{
+
+  display: flex;
+}
+
+.logo-img{
+
+  height: 50px;
+  width: 75px;
+}
+a.nav-link{
+
+  text-decoration: none;
+  color: black;
+}
