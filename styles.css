@@ -12,10 +12,10 @@ margin: 0px;
  }
  header{
 display: flex;
+background-color: rgb(255, 255, 255);
+font-style: italic;
 justify-content: space-between;
-background-color: white;
 align-items: center;
-
 }
 
 .logo{
@@ -30,6 +30,24 @@ align-items: center;
 }
 a.nav-link{
 
+  font-style: italic;
   text-decoration: none;
   color: black;
+  align-items: center;
+  
+}
+a.nav-link:hover{
+
+color:teal
+}
+
+@media (max-width=700px){
+  header{
+    flex-direction:column;
+  }
+}
+
+footer{
+
+  background-color: white;
 }
